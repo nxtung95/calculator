@@ -1,0 +1,12 @@
+.Operator {
+    background-color: maroon;
+    width: 25%;
+    height: 20%;
+    text-align: center;
+}
+
+.Operator span {
+    font-size: 50px;
+    color: white;
+    line-height: 150%;
+}

@@ -1,0 +1,10 @@
+.clear {
+    width: 50%;
+    height: 20%;
+    text-align: center;
+}
+
+.clear span {
+    font-size: 30px;
+    line-height: 220%;
+}

@@ -1,0 +1,16 @@
+.input {
+    background-color: black;
+    text-align: right;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    color: white;
+    height: 100px;
+    overflow: hidden;
+}
+
+.input span {
+    font-size: 50px;
+    line-height: 200%;
+    padding: 10px;
+}

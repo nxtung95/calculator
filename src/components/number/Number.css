@@ -1,0 +1,16 @@
+.number {
+    background-color: white;
+    width: 25%;
+    height: 20%;
+    text-align: center;
+}
+
+.number span {
+    font-size: 50px;
+    color: black;
+    line-height: 150%;
+}
+
+.number:hover {
+    background-color: crimson;
+}
