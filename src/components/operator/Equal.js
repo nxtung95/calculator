@@ -15,7 +15,7 @@ class Equal extends React.Component {
         console.log(number);
         //... calculate
         let result = 432;
-        this.props.callback(result);
+        this.props.calculate(result);
     }
 }
 

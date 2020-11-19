@@ -12,7 +12,7 @@ const body = (props) => {
     return (
         <div className='body'>
             <Clear callback={props.clear} />
-            <Equal number={props.number} callback={props.callback}/>
+            <Equal number={props.number} calculate={props.calculate}/>
             <Add callback={props.callback} />
             <Number number={7} callback={props.callback} />
             <Number number={8} callback={props.callback} />

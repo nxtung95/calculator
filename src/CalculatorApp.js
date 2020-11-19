@@ -24,11 +24,15 @@ class CalculatorApp extends React.Component {
         });
     }
 
+    calculate = (result) => {
+        this.setState({ number: result });
+    }
+
     render() {
         return (
             <div className='CalculatorApp'>
                 <Input number={this.state.number} />
-                <Body callback={this.handle} clear={this.clear} number={this.state.number}/>
+                <Body callback={this.handle} clear={this.clear} number={this.state.number} calculate={this.calculate} />
             </div>
         );
     }
